@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <title>TenTwenty Farms</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>News</li>
+                <li>Services</li>
+                <li>Our Team</li>
+                <li>Make Enquiry</li>
+            </ul>
+        </nav>
+        <div class="contact-button">Contact Us &nbsp; <span>&#8594;</span></div>
+    </header>
+    <div class="slider-container">
+        <p class="slider-caption">Welcome To TenTwenty Farms</p>
+        <h1 class="slider-title">From our Farms<br>To your hands</h1>
+        <div class="slide active">
+            <!-- Add your first slide content here -->
+            <img width="100%" height="100%"
+                src="https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Slide 1">
+        </div>
+        <div class="slide">
+            <!-- Add your second slide content here -->
+            <img width="100%" height="100%"
+                src="https://images.pexels.com/photos/4094697/pexels-photo-4094697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Slide 2">
+        </div>
+        <div class="slide">
+            <!-- Add your second slide content here -->
+            <img width="100%" height="100%"
+                src="https://images.pexels.com/photos/2132118/pexels-photo-2132118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Slide 3">
+        </div>
+        <div class="slide">
+            <!-- Add your second slide content here -->
+            <img width="100%" height="100%"
+                src="https://images.pexels.com/photos/2518847/pexels-photo-2518847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Slide 4">
+        </div>
+        <!-- Add more slide elements as needed -->
+    </div>
+    <div>
+        <div class="button-container">
+            <button onclick="changeSlide()">
+                <img id="button-image" src="button1.jpg" alt="Button Image">
+            </button>
+            <div class="progress-bar"></div>
+        </div>
+        <div class="horizontal-line">
+            <span id="number-current"></span>
+            <hr class="line">
+            <span id="number-total"></span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
